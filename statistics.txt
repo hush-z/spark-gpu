@@ -1,0 +1,192 @@
+########################################
+# Blacksholes example - Spark (without RDD)
+########################################
+
+Start: 1434193977652
+size: 512
+iterations: 5
+Average execution time: 22 (0.1 sec)
+Execution mode: JTP
+Finish: 1434193977782
+
+
+Start: 1434193989793
+size: 512
+iterations: 5
+Average execution time: 100 (0.5 sec)
+Execution mode: GPU
+Finish: 1434193990309
+
+========================================
+========================================
+
+Start: 1434194303000
+Size: 10000
+Iterations: 100
+Average execution time: 16 (1.6 sec)
+Execution mode: JTP
+Finish: 1434194304642
+
+
+Start: 1434194310037
+Size: 10000
+Iterations: 100
+Average execution time: 4 (0.4 sec)
+Execution mode: GPU
+Finish: 1434194310467
+
+========================================
+========================================
+
+Start: 1434194559724
+Size: 1000000
+Iterations: 10000
+Average execution time: 123 (20 min)
+Execution mode: JTP
+Finish: 1434195795647
+
+
+Start: 1434195928807
+Size: 1000000
+Iterations: 10000
+Average execution time: 2 (21 sec)
+Execution mode: GPU
+Finish: 1434195950038
+
+########################################
+# Squared example - Spark (without RDD)
+########################################
+
+Start: 1434196985064
+Size: 100
+Iterations: 10
+Average execution time: 8 (0.1 sec)
+Execution mode: JTP
+Finish: 1434196985169
+
+Start: 1434196837067
+Size: 100
+Iterations: 10
+Average execution time: 14 (0.2 sec)
+Execution mode: GPU
+Finish: 1434196837229
+
+========================================
+========================================
+
+Start: 1434197063210
+Size: 100000
+Iterations: 100
+Average execution time: 15 (1.6 sec)
+Execution mode: JTP
+Finish: 1434197064831
+
+Start: 1434197089551
+Size: 100000
+Iterations: 100
+Average execution time: 2 (0.2 sec)
+Execution mode: GPU
+Finish: 1434197089792
+
+========================================
+========================================
+
+
+Start: 1434197208722
+Size: 1000000
+Iterations: 1000
+Average execution time: 20 (20 sec)
+Execution mode: JTP
+Finish: 1434197229288
+
+Start: 1434197190310
+Size: 1000000
+Iterations: 1000
+Average execution time: 1 (1.3 sec)
+Execution mode: GPU
+Finish: 1434197191649
+
+========================================
+========================================
+
+Start: 1434197418124
+Size: 1000000
+Iterations: 10000
+Average execution time: 19 (3.3 min)
+Execution mode: JTP
+Finish: 1434197617245
+
+Start: 1434197696747
+Size: 1000000
+Iterations: 10000
+Average execution time: 1 (12.4 sec)
+Execution mode: GPU
+Finish: 1434197709184
+
+
+########################################
+# Squared example - Spark (with RDD)
+########################################
+
+Start: 1434199892535
+Size: 10
+Iterations: 10
+Execution mode: JTP
+Finish: 1434199895796
+
+Start: 1434200389857
+Size: 10
+Iterations: 10
+Execution mode: GPU
+Finish: 1434200395822
+
+========================================
+========================================
+
+Start: 1434199990873
+Size: 1000
+Iterations: 100
+Execution mode: JTP
+Finish: 1434200191663 (3.3 min)
+
+Start: 1434201178510
+Size: 1000
+Iterations: 100
+Execution mode: GPU
+Finish: 1434201183749 (5 sec)
+
+========================================
+========================================
+
+Start: 1434201542238
+Size: 10000
+Iterations: 1000
+Execution mode: JTP
+Finish: 1434203489469 (32 min)
+
+Start: 1434203699787
+Size: 10000
+Iterations: 1000
+Execution mode: GPU
+Finish: 1434203709943 (0.3 sec)
+
+Start: 1434203699787
+Size: 10000
+Iterations: 1000
+Execution mode: Pure Spark
+Finish: 1434203709943 (1 sec)
+
+========================================
+========================================
+
+Start: 1434205533351
+Size: 100000
+Iterations: 10000
+Execution mode: GPU
+Finish: 1434205621363 (1.4 min)
+
+Start: 1434205732694
+Size: 100000
+Iterations: 10000
+Execution mode: Pure Spark (25 sec)
+Finish: 1434205753499
